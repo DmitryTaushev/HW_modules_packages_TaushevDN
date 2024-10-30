@@ -1,13 +1,9 @@
-from modules.module_1 import count_num
-from package.file_container_1.file_container_in_fc_1.file_3 import file_3
+from modules.module_1 import module_1
+print(module_1())
 
-number = input("Введите число")
-print(count_num(number))
+from modules.module_2 import module_2
+print(module_2())
 
-from modules.module_2 import oddnum
-a = 20
-b = 40
-print(oddnum(a,b))
 
 from package.file_container_1.file_1 import file_1
 print(file_1())

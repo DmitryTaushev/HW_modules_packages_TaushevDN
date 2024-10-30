@@ -1,3 +1,2 @@
-def count_num(number):
-    num = len(number)
-    return num
+def module_1():
+    return "Я функция из module_1"
